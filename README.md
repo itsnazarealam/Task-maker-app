@@ -1,16 +1,90 @@
-# React + Vite
+# 📝 Task Maker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Task Maker application built with React and Tailwind CSS. This app allows users to create and manage tasks easily. All tasks are stored in the browser's Local Storage, so they remain available even after refreshing or closing the browser.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks instantly
+* Store tasks in Local Storage
+* Tasks persist after page refresh
+* Delete tasks when completed
+* Clean and responsive user interface
+* Fast and lightweight application
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* Tailwind CSS
+* JavaScript
+* Local Storage API
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## 📸 Preview
+
+The application consists of:
+
+* Task input field
+* Task description area
+* Add Task button
+* Recent Tasks section
+* Delete Task functionality
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/task-maker-app.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd task-maker-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit
+
+```bash
+http://localhost:5173
+```
+
+## 💾 Local Storage Functionality
+
+All tasks are automatically saved in the browser's Local Storage. This means:
+
+* Tasks remain available after refreshing the page.
+* Tasks remain available after closing and reopening the browser.
+* Tasks are removed only when the user deletes them manually.
+
+## 🎯 Future Enhancements
+
+* Edit existing tasks
+* Task categories
+* Due dates and reminders
+* Dark/Light mode toggle
+* Search and filter tasks
+* Drag and drop task management
+
+## 👨‍💻 Author
+Md Nazare Alam
